@@ -1,0 +1,7 @@
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# Project exclude paths
+/node_modules/

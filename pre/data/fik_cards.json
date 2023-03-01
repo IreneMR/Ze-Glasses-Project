@@ -1,0 +1,142 @@
+{
+  "cards": [
+    {
+      "image": "../assets/img/image_1.webp",
+      "name": "Brioni vintage",
+      "title": "BRIONI",
+      "description": "Brioni vintage inspired black sunglasses",
+      "reference": "Model ref: 60BRI",
+      "price": "320,00 EUR",
+      "data": "blue"
+    },
+    {
+      "image": "assets/img/image_2.webp",
+      "name": "Brioni squared",
+      "title": "BRIONI",
+      "description": "Brioni squared sunglasses made qith acetate and titanium",
+      "reference": "Model ref: 48BRI",
+      "price": "490,00 EUR",
+      "data": "red"
+    },
+    {
+      "image": "assets/img/image_3.webp",
+      "name": "Brioni titanium",
+      "title": "BRIONI",
+      "description": "Brioni titanium silver green",
+      "reference": "Model ref: 59BRI",
+      "price": "460,00 EUR",
+      "data": "black"
+    },
+    {
+      "class": "featured",
+      "image": "assets/img/image_4.webp",
+      "name": "Brioni titanium silver",
+      "title": "BRIONI",
+      "description": "Brioni titanium silver green",
+      "reference": "Model ref: 59BRI",
+      "price": "460,00 EUR",
+      "data": "black"
+    },
+    {
+      "image": "assets/img/image_5.webp",
+      "name": "",
+      "title": "BRIONI",
+      "description": "Brioni titanium silver green",
+      "reference": "Model ref: 59BRI",
+      "price": "460,00 EUR",
+      "data": "black"
+    },
+    {
+      "image": "assets/img/image_6.webp",
+      "name": "",
+      "title": "BRIONI",
+      "description": "Brioni titanium silver green",
+      "reference": "Model ref: 59BRI",
+      "price": "460,00 EUR",
+      "data": "red"
+    },
+    {
+      "image": "assets/img/image_7.webp",
+      "name": "",
+      "title": "BRIONI",
+      "description": "Brioni titanium silver green",
+      "reference": "Model ref: 59BRI",
+      "price": "460,00 EUR",
+      "data": "black"
+    },
+    {
+      "class": "featured",
+      "image": "assets/img/image_8.webp",
+      "name": "",
+      "title": "BRIONI",
+      "description": "Brioni titanium silver green",
+      "reference": "Model ref: 59BRI",
+      "price": "460,00 EUR",
+      "data": "blue"
+    },
+    {
+      "image": "assets/img/image_9.webp",
+      "name": "",
+      "title": "BRIONI",
+      "description": "Brioni titanium silver green",
+      "reference": "Model ref: 59BRI",
+      "price": "460,00 EUR",
+      "data": "black"
+    },
+    {
+      "image": "assets/img/image_10.webp",
+      "name": "",
+      "title": "BRIONI",
+      "description": "Brioni titanium silver green",
+      "reference": "Model ref: 59BRI",
+      "price": "460,00 EUR",
+      "data": "black"
+    },
+    {
+      "image": "assets/img/image_11.webp",
+      "name": "",
+      "title": "BRIONI",
+      "description": "Brioni titanium silver green",
+      "reference": "Model ref: 59BRI",
+      "price": "460,00 EUR",
+      "data": "black"
+    },
+    {
+      "class": "featured",
+      "image": "assets/img/image_12.webp",
+      "name": "",
+      "title": "BRIONI",
+      "description": "Brioni titanium silver green",
+      "reference": "Model ref: 59BRI",
+      "price": "460,00 EUR",
+      "data": "black"
+    },
+    {
+      "image": "assets/img/image_13.webp",
+      "name": "",
+      "title": "BRIONI",
+      "description": "Brioni titanium silver green",
+      "reference": "Model ref: 59BRI",
+      "price": "460,00 EUR",
+      "data": "blue"
+    },
+    {
+      "image": "assets/img/image_14.webp",
+      "name": "",
+      "title": "BRIONI",
+      "description": "Brioni titanium silver green",
+      "reference": "Model ref: 59BRI",
+      "price": "460,00 EUR",
+      "data": "blue"
+    },
+    {
+      "image": "assets/img/image_15.webp",
+      "name": "",
+      "title": "BRIONI",
+      "description": "Brioni titanium silver green",
+      "reference": "Model ref: 59BRI",
+      "price": "460,00 EUR",
+      "data": "red"
+    }
+  ]
+}

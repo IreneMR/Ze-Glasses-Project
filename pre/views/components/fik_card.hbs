@@ -1,0 +1,21 @@
+<article class="fik-card js-card {{ this.data }} {{ this.class }}">
+    <div class="fik-card__image-wrapper">
+        <img src="{{ this.image }}" alt="{{ this.name }}" loading="lazy" class="fik-card__image"  data-category="{{ this.data }}"/>
+        <div class="fik-card__info">
+            <h3>
+                {{ this.title }}
+            </h3>
+            <p>
+                {{ this.description }}
+            </p>
+            <p>
+                <strong>
+                    {{ this.reference }}
+                </strong>
+            </p>
+            <span>
+                {{ this.price }}
+            </span>
+        </div>
+    </div>
+</article>

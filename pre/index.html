@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html xml:lang="es" lang="es">
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- DYNAMIC METAS -->
+    
+
+    <!-- PRELOADS -->
+    
+
+    <!-- RESPONSIVE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Ze-Glasses">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Ze-Glasses">
+
+    <meta name="robots" content="noindex">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/application.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrapper">
+            <div>
+                <button id="js-menu-button" class="header__menu-icon">
+                    <img src="../../assets/svg/icon-burger.svg" alt="menu">
+                </button>
+                <nav class="header__nav">
+                    <ul id="js-menu" class="menu">
+                        <li class="header__menu-item">
+                            <a href="#hero" class="header__anchor"> Hero </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#about" class="header__anchor"> Quienes Somos </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#services" class="header__anchor"> Servicios </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#team" class="header__anchor"> Equipo </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#newsletter" class="header__anchor"> Newsletter </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#contact" class="header__anchor"> Contacto </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <img src="../../assets/svg/logo.svg" alt="menu" class="header__logo">
+            <div class="header__actions">
+                <button class="header__button" data-filter="all"> Search</button>
+                <img src="../../assets/svg/icon-search.svg" alt="menu" class="header__actions-icon icon-search">
+                <img src="../../assets/svg/icon-cart.svg" alt="menu" class="header__actions-icon">
+            </div>
+        </div>
+    </header>
+<main role="main" class="main">
+        <div class="images">
+            <div class="fik-filter">
+                <h1>GLASSES</h1>
+                <div class="fik-filter__container js-filters">
+                    <span class="fik-filter__label">COLOR:</span>
+                    <div class="fik-filter__buttons">
+                        <button class="fik-filter__item js-filter__item active" data-filter="all"> Show all</button>
+                        <button class="fik-filter__item js-filter__item" data-filter="black"> Black</button>
+                        <button class="fik-filter__item js-filter__item" data-filter="blue"> Blue</button>
+                        <button class="fik-filter__item js-filter__item" data-filter="red"> Red</button>
+                    </div>
+                </div>
+            </div>        </div>
+        <div class="grid cards">
+                <article class="fik-card js-card blue ">
+                    <div class="fik-card__image-wrapper">
+                        <img src="../assets/img/image_1.webp" alt="Brioni vintage" loading="lazy" class="fik-card__image"  data-category="blue"/>
+                        <div class="fik-card__info">
+                            <h3>
+                                BRIONI
+                            </h3>
+                            <p>
+                                Brioni vintage inspired black sunglasses
+                            </p>
+                            <p>
+                                <strong>
+                                    Model ref: 60BRI
+                                </strong>
+                            </p>
+                            <span>
+                                320,00 EUR
+                            </span>
+                        </div>
+                    </div>
+                </article>                <article class="fik-card js-card red ">
+                    <div class="fik-card__image-wrapper">
+                        <img src="assets/img/image_2.webp" alt="Brioni squared" loading="lazy" class="fik-card__image"  data-category="red"/>
+                        <div class="fik-card__info">
+                            <h3>
+                                BRIONI
+                            </h3>
+                            <p>
+                                Brioni squared sunglasses made qith acetate and titanium
+                            </p>
+                            <p>
+                                <strong>
+                                    Model ref: 48BRI
+                                </strong>
+                            </p>
+                            <span>
+                                490,00 EUR
+                            </span>
+                        </div>
+                    </div>
+                </article>                <article class="fik-card js-card black ">
+                    <div class="fik-card__image-wrapper">
+                        <img src="assets/img/image_3.webp" alt="Brioni titanium" loading="lazy" class="fik-card__image"  data-category="black"/>
+                        <div class="fik-card__info">
+                            <h3>
+                                BRIONI
+                            </h3>
+                            <p>
+                                Brioni titanium silver green
+                            </p>
+                            <p>
+                                <strong>
+                                    Model ref: 59BRI
+                                </strong>
+                            </p>
+                            <span>
+                                460,00 EUR
+                            </span>
+                        </div>
+                    </div>
+                </article>                <article class="fik-card js-card black featured">
+                    <div class="fik-card__image-wrapper">
+                        <img src="assets/img/image_4.webp" alt="Brioni titanium silver" loading="lazy" class="fik-card__image"  data-category="black"/>
+                        <div class="fik-card__info">
+                            <h3>
+                                BRIONI
+                            </h3>
+                            <p>
+                                Brioni titanium silver green
+                            </p>
+                            <p>
+                                <strong>
+                                    Model ref: 59BRI
+                                </strong>
+                            </p>
+                            <span>
+                                460,00 EUR
+                            </span>
+                        </div>
+                    </div>
+                </article>                <article class="fik-card js-card black ">
+                    <div class="fik-card__image-wrapper">
+                        <img src="assets/img/image_5.webp" alt="" loading="lazy" class="fik-card__image"  data-category="black"/>
+                        <div class="fik-card__info">
+                            <h3>
+                                BRIONI
+                            </h3>
+                            <p>
+                                Brioni titanium silver green
+                            </p>
+                            <p>
+                                <strong>
+                                    Model ref: 59BRI
+                                </strong>
+                            </p>
+                            <span>
+                                460,00 EUR
+                            </span>
+                        </div>
+                    </div>
+                </article>                <article class="fik-card js-card red ">
+                    <div class="fik-card__image-wrapper">
+                        <img src="assets/img/image_6.webp" alt="" loading="lazy" class="fik-card__image"  data-category="red"/>
+                        <div class="fik-card__info">
+                            <h3>
+                                BRIONI
+                            </h3>
+                            <p>
+                                Brioni titanium silver green
+                            </p>
+                            <p>
+                                <strong>
+                                    Model ref: 59BRI
+                                </strong>
+                            </p>
+                            <span>
+                                460,00 EUR
+                            </span>
+                        </div>
+                    </div>
+                </article>                <article class="fik-card js-card black ">
+                    <div class="fik-card__image-wrapper">
+                        <img src="assets/img/image_7.webp" alt="" loading="lazy" class="fik-card__image"  data-category="black"/>
+                        <div class="fik-card__info">
+                            <h3>
+                                BRIONI
+                            </h3>
+                            <p>
+                                Brioni titanium silver green
+                            </p>
+                            <p>
+                                <strong>
+                                    Model ref: 59BRI
+                                </strong>
+                            </p>
+                            <span>
+                                460,00 EUR
+                            </span>
+                        </div>
+                    </div>
+                </article>                <article class="fik-card js-card blue featured">
+                    <div class="fik-card__image-wrapper">
+                        <img src="assets/img/image_8.webp" alt="" loading="lazy" class="fik-card__image"  data-category="blue"/>
+                        <div class="fik-card__info">
+                            <h3>
+                                BRIONI
+                            </h3>
+                            <p>
+                                Brioni titanium silver green
+                            </p>
+                            <p>
+                                <strong>
+                                    Model ref: 59BRI
+                                </strong>
+                            </p>
+                            <span>
+                                460,00 EUR
+                            </span>
+                        </div>
+                    </div>
+                </article>                <article class="fik-card js-card black ">
+                    <div class="fik-card__image-wrapper">
+                        <img src="assets/img/image_9.webp" alt="" loading="lazy" class="fik-card__image"  data-category="black"/>
+                        <div class="fik-card__info">
+                            <h3>
+                                BRIONI
+                            </h3>
+                            <p>
+                                Brioni titanium silver green
+                            </p>
+                            <p>
+                                <strong>
+                                    Model ref: 59BRI
+                                </strong>
+                            </p>
+                            <span>
+                                460,00 EUR
+                            </span>
+                        </div>
+                    </div>
+                </article>                <article class="fik-card js-card black ">
+                    <div class="fik-card__image-wrapper">
+                        <img src="assets/img/image_10.webp" alt="" loading="lazy" class="fik-card__image"  data-category="black"/>
+                        <div class="fik-card__info">
+                            <h3>
+                                BRIONI
+                            </h3>
+                            <p>
+                                Brioni titanium silver green
+                            </p>
+                            <p>
+                                <strong>
+                                    Model ref: 59BRI
+                                </strong>
+                            </p>
+                            <span>
+                                460,00 EUR
+                            </span>
+                        </div>
+                    </div>
+                </article>                <article class="fik-card js-card black ">
+                    <div class="fik-card__image-wrapper">
+                        <img src="assets/img/image_11.webp" alt="" loading="lazy" class="fik-card__image"  data-category="black"/>
+                        <div class="fik-card__info">
+                            <h3>
+                                BRIONI
+                            </h3>
+                            <p>
+                                Brioni titanium silver green
+                            </p>
+                            <p>
+                                <strong>
+                                    Model ref: 59BRI
+                                </strong>
+                            </p>
+                            <span>
+                                460,00 EUR
+                            </span>
+                        </div>
+                    </div>
+                </article>                <article class="fik-card js-card black featured">
+                    <div class="fik-card__image-wrapper">
+                        <img src="assets/img/image_12.webp" alt="" loading="lazy" class="fik-card__image"  data-category="black"/>
+                        <div class="fik-card__info">
+                            <h3>
+                                BRIONI
+                            </h3>
+                            <p>
+                                Brioni titanium silver green
+                            </p>
+                            <p>
+                                <strong>
+                                    Model ref: 59BRI
+                                </strong>
+                            </p>
+                            <span>
+                                460,00 EUR
+                            </span>
+                        </div>
+                    </div>
+                </article>                <article class="fik-card js-card blue ">
+                    <div class="fik-card__image-wrapper">
+                        <img src="assets/img/image_13.webp" alt="" loading="lazy" class="fik-card__image"  data-category="blue"/>
+                        <div class="fik-card__info">
+                            <h3>
+                                BRIONI
+                            </h3>
+                            <p>
+                                Brioni titanium silver green
+                            </p>
+                            <p>
+                                <strong>
+                                    Model ref: 59BRI
+                                </strong>
+                            </p>
+                            <span>
+                                460,00 EUR
+                            </span>
+                        </div>
+                    </div>
+                </article>                <article class="fik-card js-card blue ">
+                    <div class="fik-card__image-wrapper">
+                        <img src="assets/img/image_14.webp" alt="" loading="lazy" class="fik-card__image"  data-category="blue"/>
+                        <div class="fik-card__info">
+                            <h3>
+                                BRIONI
+                            </h3>
+                            <p>
+                                Brioni titanium silver green
+                            </p>
+                            <p>
+                                <strong>
+                                    Model ref: 59BRI
+                                </strong>
+                            </p>
+                            <span>
+                                460,00 EUR
+                            </span>
+                        </div>
+                    </div>
+                </article>                <article class="fik-card js-card red ">
+                    <div class="fik-card__image-wrapper">
+                        <img src="assets/img/image_15.webp" alt="" loading="lazy" class="fik-card__image"  data-category="red"/>
+                        <div class="fik-card__info">
+                            <h3>
+                                BRIONI
+                            </h3>
+                            <p>
+                                Brioni titanium silver green
+                            </p>
+                            <p>
+                                <strong>
+                                    Model ref: 59BRI
+                                </strong>
+                            </p>
+                            <span>
+                                460,00 EUR
+                            </span>
+                        </div>
+                    </div>
+                </article>        </div>
+</main>
+
+    <div class="footer">
+        <div class="footer__wrapper">
+            <span>@2023 @IreneMR</span>
+        </div>
+    </div>
+<script src="assets/js/application.js"></script>
+
+</body>
+</html>
