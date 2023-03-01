@@ -1,7 +1,9 @@
 .sass-cache/
+.idea/
 *.css.map
 *.sass.map
 *.scss.map
+pre/
 
 # Project exclude paths
 /node_modules/

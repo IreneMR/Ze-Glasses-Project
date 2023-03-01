@@ -1,0 +1,13 @@
+{
+  "extends": ["stylelint-prettier/recommended"],
+  "plugins": ["stylelint-prettier"],
+  "rules": {
+    "prettier/prettier": true,
+    "block-no-empty": null,
+    "color-no-invalid-hex": true,
+    "comment-empty-line-before": [ "always", {
+      "ignore": ["stylelint-commands", "after-comment"]
+    } ],
+    "unit-allowed-list": ["em", "rem", "%", "s", "px", "vh", "deg", "vw", "fr", "ms"]
+  }
+}

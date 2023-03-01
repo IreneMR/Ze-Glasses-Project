@@ -8,6 +8,9 @@
     "node": "16.x"
   },
   "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.20.2",
     "eslint": "^8.8.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.1",
@@ -24,7 +27,6 @@
     "grunt-ssi": "^0.2.1",
     "grunt-terser": "^1.0.0",
     "handlebars": "^4.7.7",
-    "handlebars-helpers": "^0.10.0",
     "postcss": "^8.4.19",
     "prettier": "^2.5.1",
     "stylelint": "^13.2.1",
@@ -33,12 +35,10 @@
   },
   "scripts": {
     "start": "grunt serve",
-    "lint": "stylelint src/assets/**/*.scss",
-    "lint:fix": "stylelint src/assets/**/*.scss --fix",
-    "lint:js": "eslint 'src/assets/**/*.js'"
-  },
-  "dependencies": {
-    "swiper": "^8.4.5"
+    "lint:css": "stylelint src/assets/**/*.scss",
+    "fix:css": "stylelint src/assets/**/*.scss --fix",
+    "lint:js": "eslint src/assets/js/*.js",
+    "fix:js": "eslint src/assets/js/*.js --fix",
+    "lint": "npm run lint:css && npm run lint:js"
   }
 }
-

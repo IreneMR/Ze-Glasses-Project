@@ -10,6 +10,7 @@ $fik-white: #ffffff;
 /* FONTS */
 $f-poppins: Poppins, 'sans serif';
 $font-light: 400;
+$font-medium: 600;
 $font-bold-700: 700;
 $font-bold: 800;
 
@@ -37,10 +38,10 @@ $fik-desktop: 1024px !default;
 
 //WRAPPERS: Center and max-width body.
 @mixin wrapper($width: 100%, $max-width: 100%) {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: $max-width;
-    width: $width;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $max-width;
+  width: $width;
 }
 
 /*------------------------------------*\
@@ -51,11 +52,11 @@ $fik-desktop: 1024px !default;
 $elements: header, modal, loading;
 
 @function z($element) {
-    @return index($elements, $element);
+  @return index($elements, $element);
 }
 
 /* REM */
 $base-fontsize: 16;
 @function rem($px, $context: $base-fontsize) {
-    @return ($px / $context) * 1rem;
+  @return ($px / $context) * 1rem;
 }

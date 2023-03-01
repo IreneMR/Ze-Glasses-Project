@@ -58,7 +58,8 @@
       top: $header-height;
     }
   }
-  &__nav, &__actions {
+  &__nav,
+  &__actions {
     display: flex;
     align-items: center;
   }
@@ -66,7 +67,7 @@
     justify-self: flex-end;
   }
 
-  &__actions-icon  {
+  &__actions-icon {
     margin-left: rem(20);
   }
 
